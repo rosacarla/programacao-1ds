@@ -15,3 +15,6 @@ class ContaBancaria {
     }
   }
 }
+
+const minhaConta = new ContaBancaria(100);
+minhaConta.sacar(150);
